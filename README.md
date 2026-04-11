@@ -20,12 +20,12 @@ The following physical parameters are used in the simulations:
 
     .
     ├── data/
-    │   ├── steady_state/
-    │   └── transient_state/
-    ├── plots/
+    │   ├── steady_state/                        # Ansys Sim data for steady state
+    │   └── transient_state/                     # Ansys Sim data for transient state
+    ├── plots/                                   # Temperature and error plots
     ├── src/
-    │   └── source.py
-    ├── tests/
+    │   └── _source.py                           # Source file with all classes
+    ├── tests/                                   # All tests
     │   ├── test_2d_diffusion_steady_case1.py
     │   ├── test_2d_diffusion_steady_case2.py
     │   ├── test_2d_diffusion_steady_case3.py
