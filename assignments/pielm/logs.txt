@@ -1,0 +1,434 @@
+case 1 test logs \n
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  T range: 42.0 → 42.0 °C
+  Nodes  : 30401
+
+[Case 2] Hidden layer condition number: 1.03e+08
+[Case 2] System: (1764, 1800), rank=572, smallest SV=2.547e-10
+
+=== Error summary ===
+  Max |error|        : 0.0005 °C
+  Mean |error|       : 0.0003 °C
+  RMS error          : 0.0003 °C
+  Max normalised err : 2.52e-06  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.47e-06
+
+Saved plots/pielm_comparison.png
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  T range: 500.0 → 700.0 °C
+  Nodes  : 30401
+
+Best condition number (sample H): 1.03e+08
+PDE points: 1444, BC points: 316, N*: 1800
+Rank: 557/1800, smallest SV: 3.0967e-10
+
+=== Error summary ===
+  Max |error|        : 131.1823 °C
+  Mean |error|       : 0.9513 °C
+  RMS error          : 3.0792 °C
+  Max normalised err : 6.56e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.54e-02
+
+Saved plots/pielm_comparison.png
+case 2 test logs \n
+
+case 2 test logs \n
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  T range: 500.0 → 700.0 °C
+  Nodes  : 30401
+
+[Case 1] Hidden layer condition number: 1.03e+08
+[Case 1] System: (1760, 1800), rank=557, smallest SV=3.097e-10
+
+=== Error summary ===
+  Max |error|        : 131.1631 °C
+  Mean |error|       : 0.9504 °C
+  RMS error          : 3.0786 °C
+  Max normalised err : 6.56e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.54e-02
+
+Saved plots/pielm_comparison.png
+
+case 3 test logs \n
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  T range: 42.0 → 42.0 °C
+  Nodes  : 30401
+
+[Case 2] Hidden layer condition number: 1.03e+08
+[Case 2] System: (1764, 1800), rank=572, smallest SV=2.547e-10
+
+=== Error summary ===
+  Max |error|        : 0.0005 °C
+  Mean |error|       : 0.0003 °C
+  RMS error          : 0.0003 °C
+  Max normalised err : 2.52e-06  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.47e-06
+
+Saved plots/pielm_comparison.png
+
+case 4 test logs \n
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_9.1345.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_5.0448.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_6.4081.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_8.4529.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_9.8161.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_5.7264.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_7.7713.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_3.0.xls
+Found ANSYS data file: data/transient_state/case1/transient_case1_temp_7.0897.xls
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  t range: 3.0 → 9.8161 s
+  T range: 468.3 → 700.0 °C
+  Nodes  : 273609
+
+Best condition number: 2.47e+04
+PDE: 16000, BC: 3792, IC: 1600, N*: 5390
+System: (21392, 5390), rank=3682, smallest SV=4.565e-10
+
+=== Error summary ===
+  Max |error|        : 128.0815 °C
+  Mean |error|       : 5.7289 °C
+  RMS error          : 13.5218 °C
+  Max normalised err : 6.40e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 6.76e-02
+
+=== Error summary at 3.0===
+  Max |error|        : 117.4877 °C
+  Mean |error|       : 33.1136 °C
+  RMS error          : 38.4231 °C
+  Max normalised err : 5.87e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.92e-01
+
+Saved plots/pielm_comparison_transient_case1_3.0.png
+
+=== Error summary at 5.0448===
+  Max |error|        : 120.0746 °C
+  Mean |error|       : 4.5369 °C
+  RMS error          : 6.0376 °C
+  Max normalised err : 6.00e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 3.02e-02
+
+Saved plots/pielm_comparison_transient_case1_5.0448.png
+
+=== Error summary at 5.7264===
+  Max |error|        : 116.9332 °C
+  Mean |error|       : 2.5023 °C
+  RMS error          : 4.5585 °C
+  Max normalised err : 5.85e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.28e-02
+
+Saved plots/pielm_comparison_transient_case1_5.7264.png
+
+=== Error summary at 6.4081===
+  Max |error|        : 116.5437 °C
+  Mean |error|       : 2.0277 °C
+  RMS error          : 4.1758 °C
+  Max normalised err : 5.83e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.09e-02
+
+Saved plots/pielm_comparison_transient_case1_6.4081.png
+
+=== Error summary at 7.0897===
+  Max |error|        : 119.9472 °C
+  Mean |error|       : 1.7276 °C
+  RMS error          : 4.0222 °C
+  Max normalised err : 6.00e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.01e-02
+
+Saved plots/pielm_comparison_transient_case1_7.0897.png
+
+=== Error summary at 7.7713===
+  Max |error|        : 121.4231 °C
+  Mean |error|       : 1.7113 °C
+  RMS error          : 4.0032 °C
+  Max normalised err : 6.07e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.00e-02
+
+Saved plots/pielm_comparison_transient_case1_7.7713.png
+
+=== Error summary at 8.4529===
+  Max |error|        : 117.3930 °C
+  Mean |error|       : 1.4844 °C
+  RMS error          : 4.0385 °C
+  Max normalised err : 5.87e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.02e-02
+
+Saved plots/pielm_comparison_transient_case1_8.4529.png
+
+=== Error summary at 9.1345===
+  Max |error|        : 123.8546 °C
+  Mean |error|       : 2.1098 °C
+  RMS error          : 4.4877 °C
+  Max normalised err : 6.19e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.24e-02
+
+Saved plots/pielm_comparison_transient_case1_9.1345.png
+
+=== Error summary at 9.8161===
+  Max |error|        : 128.0815 °C
+  Mean |error|       : 2.3470 °C
+  RMS error          : 5.0872 °C
+  Max normalised err : 6.40e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.54e-02
+
+Saved plots/pielm_comparison_transient_case1_9.8161.png
+
+case 5 test logs \n
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_6.4974.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_8.2461.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_7.3717.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_5.623.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_9.1204.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_9.9947.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_10.869.xls
+Found ANSYS data file: data/transient_state/case2/transient_case1_temp_3.0.xls
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  t range: 3.0 → 10.869 s
+  T range: 500.0 → 708.6 °C
+  Nodes  : 243208
+
+[Case 1] alpha=68138.000 s/m²,  S_norm=-100000.00
+[Case 1] Condition number: 2.47e+04
+[Case 1] PDE:6000, BC:2652, IC:400, N*:5390
+[Case 1] System:(9052, 5390), rank=4297, smallest SV=3.925e-10
+
+=== Error summary ===
+  Max |error|        : 142.6551 °C
+  Mean |error|       : 18.0307 °C
+  RMS error          : 25.1257 °C
+  Max normalised err : 7.13e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.26e-01
+
+=== Error summary at 3.0===
+  Max |error|        : 142.6551 °C
+  Mean |error|       : 49.2800 °C
+  RMS error          : 57.5606 °C
+  Max normalised err : 7.13e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.88e-01
+
+Saved plots/pielm_comparison_transient_case2_3.0.png
+
+=== Error summary at 5.623===
+  Max |error|        : 138.7311 °C
+  Mean |error|       : 16.1982 °C
+  RMS error          : 18.8344 °C
+  Max normalised err : 6.94e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 9.42e-02
+
+Saved plots/pielm_comparison_transient_case2_5.623.png
+
+=== Error summary at 6.4974===
+  Max |error|        : 136.4411 °C
+  Mean |error|       : 13.6730 °C
+  RMS error          : 15.8007 °C
+  Max normalised err : 6.82e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 7.90e-02
+
+Saved plots/pielm_comparison_transient_case2_6.4974.png
+
+=== Error summary at 7.3717===
+  Max |error|        : 134.0602 °C
+  Mean |error|       : 12.8244 °C
+  RMS error          : 14.8736 °C
+  Max normalised err : 6.70e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 7.44e-02
+
+Saved plots/pielm_comparison_transient_case2_7.3717.png
+
+=== Error summary at 8.2461===
+  Max |error|        : 134.3329 °C
+  Mean |error|       : 12.7829 °C
+  RMS error          : 14.8000 °C
+  Max normalised err : 6.72e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 7.40e-02
+
+Saved plots/pielm_comparison_transient_case2_8.2461.png
+
+=== Error summary at 9.1204===
+  Max |error|        : 135.9160 °C
+  Mean |error|       : 13.1697 °C
+  RMS error          : 15.1771 °C
+  Max normalised err : 6.80e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 7.59e-02
+
+Saved plots/pielm_comparison_transient_case2_9.1204.png
+
+=== Error summary at 9.9947===
+  Max |error|        : 135.8954 °C
+  Mean |error|       : 13.2161 °C
+  RMS error          : 15.2734 °C
+  Max normalised err : 6.79e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 7.64e-02
+
+Saved plots/pielm_comparison_transient_case2_9.9947.png
+
+=== Error summary at 10.869===
+  Max |error|        : 136.5238 °C
+  Mean |error|       : 13.1010 °C
+  RMS error          : 15.1293 °C
+  Max normalised err : 6.83e-01  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 7.56e-02
+
+Saved plots/pielm_comparison_transient_case2_10.869.png
+
+case 6 test logs \n
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_6480.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_5280.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_1680.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_4080.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_8880.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_11280.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_2880.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_600.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_12000.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_10080.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_7680.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_120.0.xls
+Found ANSYS data file: data/transient_state/case3/transient_case1_temp_240.0.xls
+=== ANSYS data (after cleaning) ===
+  x range: 0.000000 → 0.010000 m
+  y range: 0.000000 → 0.010000 m
+  t range: 120.0 → 12000.0 s
+  T range: 23.6 → 42.0 °C
+  Nodes  : 395213
+
+[Case 2] alpha=3815.100 s/m²,  steady T_eq≈42.0°C
+[Case 2] Condition number: 2.47e+04
+[Case 2] PDE:6000, BC:2720, IC:400, N*:5390
+[Case 2] System:(9120, 5390), rank=4404, smallest SV=7.603e-10
+
+=== Error summary ===
+  Max |error|        : 0.9525 °C
+  Mean |error|       : 0.3100 °C
+  RMS error          : 0.4419 °C
+  Max normalised err : 4.76e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.21e-03
+
+=== Error summary at 120.0===
+  Max |error|        : 0.1454 °C
+  Mean |error|       : 0.1189 °C
+  RMS error          : 0.1194 °C
+  Max normalised err : 7.27e-04  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 5.97e-04
+
+Saved plots/pielm_comparison_transient_case3_120.0.png
+
+=== Error summary at 240.0===
+  Max |error|        : 0.2360 °C
+  Mean |error|       : 0.2084 °C
+  RMS error          : 0.2087 °C
+  Max normalised err : 1.18e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.04e-03
+
+Saved plots/pielm_comparison_transient_case3_240.0.png
+
+=== Error summary at 600.0===
+  Max |error|        : 0.1380 °C
+  Mean |error|       : 0.1077 °C
+  RMS error          : 0.1084 °C
+  Max normalised err : 6.90e-04  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 5.42e-04
+
+Saved plots/pielm_comparison_transient_case3_600.0.png
+
+=== Error summary at 1680.0===
+  Max |error|        : 0.9367 °C
+  Mean |error|       : 0.9079 °C
+  RMS error          : 0.9080 °C
+  Max normalised err : 4.68e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 4.54e-03
+
+Saved plots/pielm_comparison_transient_case3_1680.0.png
+
+=== Error summary at 2880.0===
+  Max |error|        : 0.9525 °C
+  Mean |error|       : 0.9190 °C
+  RMS error          : 0.9191 °C
+  Max normalised err : 4.76e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 4.60e-03
+
+Saved plots/pielm_comparison_transient_case3_2880.0.png
+
+=== Error summary at 4080.0===
+  Max |error|        : 0.6899 °C
+  Mean |error|       : 0.6537 °C
+  RMS error          : 0.6539 °C
+  Max normalised err : 3.45e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 3.27e-03
+
+Saved plots/pielm_comparison_transient_case3_4080.0.png
+
+=== Error summary at 5280.0===
+  Max |error|        : 0.5041 °C
+  Mean |error|       : 0.4669 °C
+  RMS error          : 0.4672 °C
+  Max normalised err : 2.52e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 2.34e-03
+
+Saved plots/pielm_comparison_transient_case3_5280.0.png
+
+=== Error summary at 6480.0===
+  Max |error|        : 0.3669 °C
+  Mean |error|       : 0.3289 °C
+  RMS error          : 0.3293 °C
+  Max normalised err : 1.83e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 1.65e-03
+
+Saved plots/pielm_comparison_transient_case3_6480.0.png
+
+=== Error summary at 7680.0===
+  Max |error|        : 0.2335 °C
+  Mean |error|       : 0.1952 °C
+  RMS error          : 0.1959 °C
+  Max normalised err : 1.17e-03  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 9.79e-04
+
+Saved plots/pielm_comparison_transient_case3_7680.0.png
+
+=== Error summary at 8880.0===
+  Max |error|        : 0.1186 °C
+  Mean |error|       : 0.0801 °C
+  RMS error          : 0.0818 °C
+  Max normalised err : 5.93e-04  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 4.09e-04
+
+Saved plots/pielm_comparison_transient_case3_8880.0.png
+
+=== Error summary at 10080.0===
+  Max |error|        : 0.0493 °C
+  Mean |error|       : 0.0159 °C
+  RMS error          : 0.0195 °C
+  Max normalised err : 2.46e-04  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 9.75e-05
+
+Saved plots/pielm_comparison_transient_case3_10080.0.png
+
+=== Error summary at 11280.0===
+  Max |error|        : 0.0470 °C
+  Mean |error|       : 0.0148 °C
+  RMS error          : 0.0183 °C
+  Max normalised err : 2.35e-04  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 9.15e-05
+
+Saved plots/pielm_comparison_transient_case3_11280.0.png
+
+=== Error summary at 12000.0===
+  Max |error|        : 0.0406 °C
+  Mean |error|       : 0.0132 °C
+  RMS error          : 0.0166 °C
+  Max normalised err : 2.03e-04  (paper target: ~1e-4 to 1e-6)
+  RMS normalised err : 8.30e-05
+
+Saved plots/pielm_comparison_transient_case3_12000.0.png
